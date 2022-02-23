@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt");
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand');
+* {
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+
+
+}
+html, body{
+    margin:0;
+    padding:0;
+
+}
+.nav ul {  
+    margin:0;
+}
+.nav a {
+    padding: 1em;
+    color: white;
+    text-decoration:none;
+    display: inline-block;
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 244, .2);
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px dotted rgba(255, 255, 255, .3);
+
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.nav li {
+    display: inline;
+}
+.bandname {
+    margin: 0%;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-weight: lighter;
+}
+.bandnamelarge {
+    font-size: 9em;
+}
+.mainheader {
+    background-color: rgba(0, 0, 0, .7);
+    background-image: url("Images/background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+.content-section {
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+.section-header {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+    color: #333;
+    text-align: left;
+}
+
+.about-band-image {
+    float: none;
+    border-radius: 5%;
+}
+.p {
+    font-weight: lighter;
+    color: #000;
+}
+
+
+
+.main-footer {
+    background-color: rgba(255, 255, 255, .4);
+    background-image: url("Images/footer3.jpg");
+    background-blend-mode:color;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 50px;
+    padding: 2em 0;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+flex-grow: 1;
+text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 50px;
+    height: 50px;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid rgb(179, 255, 0);
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight:lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+.btn-header:hover{
+    background-color:darkgrey;
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: rgb(179, 255, 0);
+    border-radius: 50%;
+    font-size: 2em;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+    
+}
+.tour-date{
+    color: #111;
+    font-weight: bold;
+    width: 18%;
+}
+.tour-city {
+    width: 24%;
+}
+.tour-place {
+    width: 35%;
+}
+.tour-btn {
+    max-width: 19%;
+}
+.btn-primary{
+    color: white;
+    background-color:rgba(0, 0, 0, .5) ;
+    border: none;
+    border-radius: .3em;
+}
+.btn-primary:hover {
+    background-color: black;
+    color: white;
+}
+.shop-item{
+    margin: 30px;
+
+}
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+}
